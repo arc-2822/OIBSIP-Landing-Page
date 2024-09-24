@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;  
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#shoe {
+    background-image:url("h2.jpg") ;
+    background-size: no-cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.shopbutton {
+     text-align: center;
+}
+.hidden {
+    display: none;
+}
+
+.products{
+    background-image:url("h3.jpg") ;
+    background-size:cover;
+    height: 173vh;
+    margin: 12%;
+    padding: 15px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.product1{
+    text-align: left;
+    margin-bottom: 15%;
+   
+}
+.product2{
+    text-align: right;
+    margin-bottom: 35%;
+}
+.product3{
+    text-align: left;
+}
+.product4{
+    text-align: right;
+}
+.closebutton{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hidden {
+    display: none;
+}
+.heelsection {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.shoes-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.shoe {
+    background-color: rgb(177, 181, 219);
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#about,#contact{
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
